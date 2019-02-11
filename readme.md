@@ -2,6 +2,12 @@
 
 This repository is for a Microsoft TechNet article/code sample where the main purpose is to show VB.NET and C# developers a more elegant way to connect to databases and how to better handle runtime exception.
 
+## Project names
+Project names are very generic but when viewed in Solution Explorer within Visual Studio these 
+projects are setup in several Solution folders which allows easiy identification for what each project is for.
+
+![Figure 1](Assets/SolutionExplorer.png)
+
 ### NuGet packages
 The folowing packages will be introduced in the Microsoft TechNet article.
 
