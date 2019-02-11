@@ -63,7 +63,7 @@ namespace WindowsFormsApp2.Classes
                         dt.Columns["CustomerIdentifier"].ColumnMapping = MappingType.Hidden;
 
                     }
-                    catch (Exception ex)
+                    catch (Exception)
                     {
 
                         throw;
@@ -110,7 +110,7 @@ namespace WindowsFormsApp2.Classes
                         dt.Columns["CustomerIdentifier"].ColumnMapping = MappingType.Hidden;
 
                     }
-                    catch (Exception ex)
+                    catch (Exception)
                     {
 
                         throw;

@@ -34,7 +34,6 @@ namespace WorkingWithDatabaseOldSchool
             {
                 using (var cmd = new SqlCommand { Connection = cn })
                 {
-
                     cmd.CommandText = selectStatement;
                     cmd.Parameters.AddWithValue("@ActiveStatus", true);
 
