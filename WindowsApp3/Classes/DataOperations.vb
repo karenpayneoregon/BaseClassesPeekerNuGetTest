@@ -24,7 +24,8 @@ Namespace Classes
             End Try
 
         End Function
-        Public Sub WriteCustomerTableToXmlFile(pFileName As String, ByRef RowsExported As Integer)
+        Public Sub WriteCustomerTableToXmlFile(pFileName As String, ByRef pRowsExported As Integer)
+
             CopyToApplicationFolder(_excelCompanyFileName)
 
             ' server name
@@ -44,7 +45,7 @@ Namespace Classes
 
                     Try
                         cn.Open()
-                        RowsExported = cmd.ExecuteNonQuery()
+                        pRowsExported = cmd.ExecuteNonQuery()
 
                     Catch ex As Exception
                         mHasException = True
