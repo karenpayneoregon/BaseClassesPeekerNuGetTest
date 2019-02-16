@@ -4,7 +4,6 @@ Public Class Form1
     Private bsCustomers As New BindingSource
     Private Sub Form1_Shown(sender As Object, e As EventArgs) Handles Me.Shown
 
-
         Dim ops As New DataOperations()
         ops.RevealCommand = My.Application.AdminMode
 

@@ -30,7 +30,9 @@
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Panel1 = new System.Windows.Forms.Panel();
+            this.badConnectionStringButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -47,11 +49,22 @@
             // 
             // Panel1
             // 
+            this.Panel1.Controls.Add(this.badConnectionStringButton);
             this.Panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.Panel1.Location = new System.Drawing.Point(0, 195);
             this.Panel1.Name = "Panel1";
             this.Panel1.Size = new System.Drawing.Size(845, 50);
             this.Panel1.TabIndex = 7;
+            // 
+            // badConnectionStringButton
+            // 
+            this.badConnectionStringButton.Location = new System.Drawing.Point(15, 12);
+            this.badConnectionStringButton.Name = "badConnectionStringButton";
+            this.badConnectionStringButton.Size = new System.Drawing.Size(249, 23);
+            this.badConnectionStringButton.TabIndex = 0;
+            this.badConnectionStringButton.Text = "Load data with bad connection string";
+            this.badConnectionStringButton.UseVisualStyleBackColor = true;
+            this.badConnectionStringButton.Click += new System.EventHandler(this.badConnectionStringButton_Click);
             // 
             // Form1
             // 
@@ -65,6 +78,7 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -73,6 +87,7 @@
 
         internal System.Windows.Forms.DataGridView dataGridView1;
         internal System.Windows.Forms.Panel Panel1;
+        private System.Windows.Forms.Button badConnectionStringButton;
     }
 }
 

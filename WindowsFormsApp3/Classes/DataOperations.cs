@@ -54,8 +54,7 @@ namespace WindowsFormsApp3.Classes
                         "ORDER BY C.CompanyName;";
 
 
-                    DataTable dt = new DataTable();
-
+                    var dt = new DataTable();
 
                     try
                     {
