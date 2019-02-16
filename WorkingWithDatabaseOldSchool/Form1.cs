@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WorkingWithDatabaseOldSchool
@@ -76,7 +70,7 @@ namespace WorkingWithDatabaseOldSchool
             }
         }
 
-        private void badConnectionStringButton_Click(object sender, EventArgs e)
+        private void validConnectionStringButton_Click(object sender, EventArgs e)
         {
             var dt = new DataTable();
 

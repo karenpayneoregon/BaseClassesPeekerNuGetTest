@@ -31,7 +31,7 @@ namespace WorkingWithDatabaseWithSingletonExample
                 "WHERE ActiveStatus = @ActiveStatus";
 
 
-            var cn = Connection.Connect();
+            SqlConnection cn = Connection.Connect();
 
             using (var cmd = new SqlCommand { Connection = cn })
             {
