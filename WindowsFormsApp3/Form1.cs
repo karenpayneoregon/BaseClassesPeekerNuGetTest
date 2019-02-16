@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp3.Classes;
 using WindowsFormsApp3.Extensions;
@@ -33,7 +26,8 @@ namespace WindowsFormsApp3
             }
             else
             {
-                MessageBox.Show($"Failed to load data{Environment.NewLine}{ops.LastExceptionMessage}");
+                MessageBox.Show(
+                    $"Failed to load data{Environment.NewLine}{ops.LastExceptionMessage}");
             }
         }
     }

@@ -9,7 +9,9 @@ namespace AccessConnectionPassworded.Classes
 {
     public class DataOperations : AccessConnection
     {
-        private ConnectionProtection connectionProtection = new ConnectionProtection(Application.ExecutablePath);
+        private ConnectionProtection connectionProtection = 
+            new ConnectionProtection(Application.ExecutablePath);
+
         public DataOperations()
         {
             if (!connectionProtection.IsProtected())
@@ -18,7 +20,7 @@ namespace AccessConnectionPassworded.Classes
             }
 
             connectionProtection.DecryptFile();
-            ConnectionStringWithPassword = AccessConnectionPassworded.Properties.Settings.Default.ConnectionString;
+            ConnectionStringWithPassword = Properties.Settings.Default.ConnectionString;
             connectionProtection.EncryptFile();
         }
         /// <summary>
@@ -60,7 +62,7 @@ namespace AccessConnectionPassworded.Classes
                         "SELECT Identifier, CompanyName, ContactName, ContactTitle FROM Customers;";
 
 
-                    DataTable dt = new DataTable();
+                    var dt = new DataTable();
 
                     try
                     {

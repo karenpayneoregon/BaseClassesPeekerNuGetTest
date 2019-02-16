@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data.OleDb;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using DataConnectionsLibrary.GeneralClasses;
 using DataConnectionsLibrary.Interfaces;
 
@@ -11,7 +7,9 @@ namespace DataConnectionsLibrary.ConnectionClass
 {
     public abstract class AccessConnection : BaseExceptionProperties, IConnection
     {
-        private readonly OleDbConnectionStringBuilder _builder = new OleDbConnectionStringBuilder { Provider = "Microsoft.ACE.OLEDB.12.0" };
+        private readonly OleDbConnectionStringBuilder _builder = 
+            new OleDbConnectionStringBuilder { Provider = "Microsoft.ACE.OLEDB.12.0" };
+
         /// <summary>
         /// Database name and path
         /// </summary>

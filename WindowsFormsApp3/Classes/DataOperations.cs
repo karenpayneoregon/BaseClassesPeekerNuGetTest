@@ -12,31 +12,7 @@ namespace WindowsFormsApp3.Classes
         {
             DefaultCatalog = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Database1.accdb");
         }
-        /// <summary>
-        /// Provides a way for testing a data connection
-        /// </summary>
-        /// <returns></returns>
-        public bool TestConnection()
-        {
-            mHasException = false;
 
-            using (var cn = new OleDbConnection(ConnectionString))
-            {
-                try
-                {
-                    cn.Open();
-                    return true;
-                }
-                catch (Exception ex)
-                {
-                    mHasException = true;
-                    mLastException = ex;
-                }
-            }
-
-            return IsSuccessFul;
-
-        }
         /// <summary>
         /// Load data from joined tables
         /// </summary>
