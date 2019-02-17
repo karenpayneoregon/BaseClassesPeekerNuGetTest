@@ -25,6 +25,7 @@ projects are setup in several Solution folders which allows easiy identification
 |**MS-Access**| Working with Microsoft Access 2007+ databases|
 |AccessConnection | Example using a base connection package to open MS-Access without database password  |
 |AccessConnectionPassworded | Example using a base connection package to open MS-Access with database password   |
+|**Misc**| |
 |WindowsApp3a  | Example using a base connection package to open SQL-Server database |
 |WindowsFormsApp1  | Multiple NuGet packages to check if SQL-Server serice is running   |
 |WindowsApp3 | Shows exporting SQL-Server data to Excel (this one is VB.NET)    |
