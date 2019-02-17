@@ -6,7 +6,32 @@ This repository is for a Microsoft TechNet article/code sample where the main pu
 Project names are very generic but when viewed in Solution Explorer within Visual Studio these 
 projects are setup in several Solution folders which allows easiy identification for what each project is for.
 
+|Project | Description
+| :------------- |:-------------|
+|**SQL-Server**| Working with server based databases|
+|WorkingWithDatabaseOldSchool  | This project shows how many novice developer read data coded within a Windows form rather than in a data class. |
+|WorkingWithDatabaseWithSingletonExample  | Uses a singleton pattern, increases complexity and wasteful with resources.  |
+|WorkingWithDatabasePartiallyOOP  |First attempt access data using a data class rather than in a form.|
+|BestPracticeSqlServer1  | Next step from above project using interfaces       |
+|BestPracticeSqlServer2  | Here data connection are done in a class project access in a data class called from a form. |
+|**Class libraries**| Class project usable in Windows forms project|
+|DataConnectionsLibrary  | Solely responsoble for creating connection string for SQL-Server, MS-Access and Oracle |
+|ProtectedDataConnections  | Provides encrypt and decryption for connection string  |
+|**NuGet packages**| Projects using NuGet packages|
+|FileHandlingExceptions  | Example using a base exception class to handle file IO runtime exceptions. |
+|NullExceptionsExample  | Example using a base exception class to handle Null exceptions and other common runtime exceptions  |
+|AccessConnection | Example using a base connection package to open MS-Access without database password  |
+|AccessConnectionPassworded | Example using a base connection package to open MS-Access with database password   |
+|WindowsApp3a  | Example using a base connection package to open SQL-Server database |
+|WindowsFormsApp1  | Multiple NuGet packages to check if SQL-Server serice is running   |
+|WindowsApp3 | Shows exporting SQL-Server data to Excel (this one is VB.NET)    |
+|WindowsApp3a  | Shows exporting SQL-Server data to Excel (this one is C#)    |
+
+
+
 ![Figure 1](Assets/SolutionExplorer.png)
+
+
 
 ### NuGet packages
 The folowing packages will be introduced in the Microsoft TechNet article.
