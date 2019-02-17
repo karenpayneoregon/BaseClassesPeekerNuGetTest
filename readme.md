@@ -18,6 +18,8 @@ projects are setup in several Solution folders which allows easiy identification
 |DataConnectionsLibrary  | Solely responsoble for creating connection string for SQL-Server, MS-Access and Oracle |
 |ProtectedDataConnections  | Provides encrypt and decryption for connection string  |
 |**NuGet packages**| Projects using NuGet packages|
+|[BaseConnection package](https://www.nuget.org/packages/BaseConnectionLibrary/)|Contains classes for connecting to SQL-Server , Oracle and OleDb compatible databases|
+|[DataProviderCommandHelpers](https://www.nuget.org/packages/DataProviderCommandHelpers/)|Contains a language extension method to reveal a parameterized SQL statement|
 |FileHandlingExceptions  | Example using a base exception class to handle file IO runtime exceptions. |
 |NullExceptionsExample  | Example using a base exception class to handle Null exceptions and other common runtime exceptions  |
 |AccessConnection | Example using a base connection package to open MS-Access without database password  |
