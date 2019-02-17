@@ -17,10 +17,10 @@ Public Class Form1
         End If
 
         Dim PeopleList As New List(Of Person) From
-    {
-    New Person With {.Id = 1, .FirstName = "Jim", .LastName = "Jones"},
-    New Person With {.Id = 2, .FirstName = "Mary", .LastName = "Adams"}
-    }
+        {
+            New Person With {.Id = 1, .FirstName = "Jim", .LastName = "Jones"},
+            New Person With {.Id = 2, .FirstName = "Mary", .LastName = "Adams"}
+        }
 
         Dim manager As New Manager With {.Id = 1, .FirstName = "Karen", .LastName = "Payne", .Employees = PeopleList}
 
