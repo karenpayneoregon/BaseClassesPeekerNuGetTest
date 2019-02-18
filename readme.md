@@ -1,6 +1,6 @@
 # Working with database connections and exceptions.
 
-This repository is for a Microsoft TechNet article/code sample where the main purpose is to show VB.NET and C# developers a more elegant way to connect to databases and how to better handle runtime exception.
+This repository is for a [Microsoft TechNet article/code sample](https://social.technet.microsoft.com/wiki/contents/articles/52561.connecting-to-databases-and-exception-handling.aspx) where the main purpose is to show VB.NET and C# developers a more elegant way to connect to databases and how to better handle runtime exception.
 
 ## Project names
 Project names are very generic but when viewed in Solution Explorer within Visual Studio these 
