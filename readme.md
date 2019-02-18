@@ -66,5 +66,7 @@ ___
 #### Code samples
 Examples are done in a conventual manner writing data access code directly in a form then move on to writing data access in data classes in two flavors.
 
+For **VB.NET** developers see the following [GitHub repository](https://github.com/karenpayneoregon/NuGetBaseConnectionHowToVB).
+
 **Requires for code samples**
 - Microsoft SQL-Server installed.
