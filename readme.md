@@ -14,6 +14,7 @@ projects are setup in several Solution folders which allows easiy identification
 |WorkingWithDatabasePartiallyOOP  |First attempt access data using a data class rather than in a form.|
 |BestPracticeSqlServer1  | Next step from above project using interfaces       |
 |BestPracticeSqlServer2  | Here data connection are done in a class project access in a data class called from a form. |
+|SelectionsFromComboBox | Example for working with selecting an item from a ComboBox using NuGet package BaseConnectionLibrary|
 |**Class libraries**| Class project usable in Windows forms project|
 |DataConnectionsLibrary  | Solely responsoble for creating connection string for SQL-Server, MS-Access and Oracle |
 |ProtectedDataConnections  | Provides encrypt and decryption for connection string  |
