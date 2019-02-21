@@ -60,7 +60,7 @@ ___
 This package contains a language extension method to reveal a parameterized SQL statement written using a managed data provider in C# or VB.NET programming languages.
 
 **Package manager**
-> Install-Package DataProviderCommandHelpers -Version 1.0.0
+> Install-Package DataProviderCommandHelpers -Version 1.0.2
 
 ___
 
